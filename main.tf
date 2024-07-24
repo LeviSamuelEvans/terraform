@@ -36,4 +36,4 @@ resource "aws_security_group" "instance" {
     cidr_blocks = ["0.0.0.0/0"] # allow TCP requests from any IP address
   }
 }
-
+# test with curl http://<public_ip>:8080
